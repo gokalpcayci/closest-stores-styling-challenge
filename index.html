@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body class="bg-darkBlue">
+    <div
+      class="relative flex font-mulish items-center justify-center min-h-screen"
+    >
+      <div
+        class="absolute rounded-b-2xl rounded-r-2xl w-64 -z-20 h-72 top-16 left-1/3 bg-gradient-to-br from-pink to-purple"
+      ></div>
+      <div class="p-4 w-auto bg-darkBlue2 rounded-xl">
+        <div class="flex items-center justify-start flex-col space-y-4">
+          <h1 class="text-xl font-mulish font-semibold self-start text-grayish">
+            Closest stores
+          </h1>
+          <!-- Postal code -->
+          <div class="flex w-full space-x-3 items-center">
+            <div class="flex flex-col space-y-1 justify-start">
+              <p class="self-start text-[10px] text-grayish text-opacity-100">
+                Postal code
+              </p>
+              <input
+                placeholder="5055"
+                type="text"
+                class="w-24 placeholder:text-grayish text-grayish bg-veryDarkBlue rounded-sm outline-none border border-purple py-2 px-2"
+              />
+            </div>
+            <!-- Use my location -->
+            <div
+              class="flex font-mulish max-w-sm w-full items-end justify-center text-lg font-semibold"
+            >
+              <!-- location SVG -->
+              <div class="flex items-end translate-y-2 justiy-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="#756BFF"
+                  fill="none"
+                  class="font-mulish w-6 h-6"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-5 h-5"
+                >
+                  <path
+                    stroke="#756BFF"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                  />
+                </svg>
+                <p class="text-purple text-md translate-y-1 font-mulish">
+                  Use my location
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- MAIN 1-->
+          <div class="flex flex-col items-center justify-start space-y-1">
+            <h1 class="text-grayish font-semibold self-start text-md">
+              POINT Bergen Sentrum
+            </h1>
+            <p class="text-grayish text-md self-start font-light">
+              Strandagaten 55-57, 6007 Bergen
+            </p>
+            <div class="self-start flex items-center justify-center space-x-2">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_4_17)">
+                  <path
+                    d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                    stroke="#C4C0FF"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 7V12L15 15"
+                    stroke="#C4C0FF"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_4_17">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p class="text-grayish text-md font-light">9.00 - 19:00</p>
+            </div>
+          </div>
+          <!-- MAIN 2 -->
+          <div class="flex flex-col items-center justify-start space-y-1">
+            <h1 class="text-grayish font-semibold text-md self-start">
+              POINT Bergen Sentrum
+            </h1>
+            <p class="text-grayish text-md font-light self-start">
+              Strandagaten 55-57, 6007 Bergen
+            </p>
+            <div class="flex self-start items-center justify-center space-x-2">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_4_17)">
+                  <path
+                    d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                    stroke="#C4C0FF"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 7V12L15 15"
+                    stroke="#C4C0FF"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_4_17">
+                    <rect width="18" height="18" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p class="text-grayish text-md font-light">9.00 - 19:00</p>
+            </div>
+          </div>
+          <!-- button -->
+          <button
+            class="py-2 w-full hover:text-white hover:bg-bluish transform duration-200 text-center bg-purple text-grayish font-mulish text-lg rounded-[3px]"
+          >
+            View all
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
